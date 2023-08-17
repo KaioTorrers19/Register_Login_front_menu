@@ -1,0 +1,163 @@
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+
+input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  letter-spacing: inherit;
+  font: inherit;
+  padding: 4px 0px 5px;
+  box-sizing: content-box;
+  background: none;
+  margin: 0px;
+  display: block;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f9d3a0,#e69736, #f9b44f);
+}
+
+
+.form-container{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+  border-radius: 10px;
+  background-color:  #ffffff;
+  padding: 20px;
+}
+
+.App {
+  max-width: "xs";
+  text-align: center;
+}
+
+.login-form-container {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100px; /* Ajuste a largura conforme necessário */
+}
+
+/* Register*/
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form h2 {
+  margin-bottom: 15px;
+}
+
+.register-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.register-form button {
+  padding: 10px;
+  background-color: #f9b44f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* .register-form button:hover {
+  background-color: #e69736;
+} */
+
+/* LoginForm.css */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h2 {
+  
+  margin-bottom: 15px;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #f9b44f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #e69736;
+}
+button:hover{
+background-color: #e69736;
+}
+
+input:focus{
+  border: none;
+  border-bottom: 1px solid #f9b44f;
+  text-decoration: none;
+}
+
+button{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+  color: #ffffff;
+  position: relative;
+  justify-content: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #e69736;
+  border-radius: 4px;
+  border: none;
+  outline: 0px;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+p{
+  color:rgba(0, 0, 0, 0.6);;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+a{
+  color: rgba(0, 0, 0, 0.6);
+}
